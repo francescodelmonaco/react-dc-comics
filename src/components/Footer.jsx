@@ -57,7 +57,7 @@ const Footer = () => {
                     </div>
 
                     <figure>
-                        <img src="/src/assets/img/dc-logo-bg.png" alt="DC logo" />
+                        <img className="logo-dc" src="/src/assets/img/dc-logo-bg.png" alt="DC logo" />
                     </figure>
                 </div>
             </section>

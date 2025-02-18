@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
   font-family: "Open Sans";
 }
@@ -30,6 +30,10 @@ a {
 /* header */
 header {
   background-color: var(--color-white);
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .flex-header {
@@ -48,6 +52,11 @@ header {
 
 .flex-link a {
   color: var(--color-dark-gray);
+  font-weight: bold;
+}
+
+.flex-link a:hover {
+  color: var(--color-blue);
 }
 
 /* main */
@@ -116,6 +125,11 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  position: relative;
+  overflow: hidden;
+
+  padding: 2rem 0;
 }
 
 .footer2 {
@@ -147,4 +161,10 @@ h3 {
 .tx-blue {
   color: var(--color-blue);
   font-size: large;
+}
+
+.logo-dc {
+  position: absolute;
+  top: -10%;
+  right: 0;
 }
