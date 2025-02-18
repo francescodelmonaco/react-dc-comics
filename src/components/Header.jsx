@@ -7,16 +7,65 @@ const Header = () => {
                 </figure>
 
                 <ul className="flex-link">
-                    <a href="">CHARACTERS</a>
-                    <a href="">COMICS</a>
-                    <a href="">MOVIES</a>
-                    <a href="">TV</a>
-                    <a href="">GAMES</a>
-                    <a href="">COLLECTIBLES</a>
-                    <a href="">VIDEOS</a>
-                    <a href="">FANS</a>
-                    <a href="">NEWS</a>
-                    <a href="">SHOP</a>
+                    <div className="blue-bar-flex">
+                        <a href="">CHARACTERS</a>
+
+                        <hr />
+                    </div>
+
+                    <div className="blue-bar-flex">
+                        <a href="">COMICS</a>
+
+                        <hr />
+                    </div>
+
+                    <div className="blue-bar-flex">
+                        <a href="">MOVIES</a>
+
+                        <hr />
+                    </div>
+
+                    <div className="blue-bar-flex">
+                        <a href="">TV</a>
+
+                        <hr />
+                    </div>
+
+                    <div className="blue-bar-flex">
+                        <a href="">GAMES</a>
+
+                        <hr />
+                    </div>
+
+                    <div className="blue-bar-flex">
+                        <a href="">COLLECTIBLES</a>
+
+                        <hr />
+                    </div>
+
+                    <div className="blue-bar-flex">
+                        <a href="">VIDEOS</a>
+
+                        <hr />
+                    </div>
+
+                    <div className="blue-bar-flex">
+                        <a href="">FANS</a>
+
+                        <hr />
+                    </div>
+
+                    <div className="blue-bar-flex">
+                        <a href="">NEWS</a>
+
+                        <hr />
+                    </div>
+
+                    <div className="blue-bar-flex">
+                        <a href="">SHOP</a>
+
+                        <hr />
+                    </div>
                 </ul>
             </div>
         </header>
