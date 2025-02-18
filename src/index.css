@@ -13,6 +13,16 @@
 :root {
   --color-white: #fff;
   --color-dark-gray: #1b1b1b;
+  --color-blue: #0282f9;
+}
+
+a {
+  text-decoration: none;
+}
+
+.margin-80 {
+  margin: 0 auto;
+  width: 80%;
 }
 
 /* header */
@@ -24,14 +34,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
-  width: 80%;
-  padding: 1rem 0;
-}
-
-a {
-  text-decoration: none;
-  color: var(--color-dark-gray);
+  padding: 1.5rem 0;
 }
 
 .flex-link {
@@ -39,4 +42,42 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+}
+
+.flex-link a {
+  color: var(--color-dark-gray);
+}
+
+/* main */
+main {
+  background-color: var(--color-dark-gray);
+  color: var(--color-white);
+}
+
+.card-container {
+  padding: 1.5rem 0;
+}
+
+/* blue section */
+.blue-section {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.blue-section-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.blue-section-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.blue-section-element a {
+  color: var(--color-white);
 }

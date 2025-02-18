@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <header>
-            <div className="flex-header">
+            <div className="flex-header margin-80">
                 <figure>
                     <img src="/src/assets/img/dc-logo.png" alt="Logo DC Comics" />
                 </figure>
