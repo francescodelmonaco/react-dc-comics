@@ -1,6 +1,6 @@
 const BlueSection = () => {
     return (
-        <div className="blue-section">
+        <section className="blue-section">
             <div className="blue-section-container margin-80">
                 <div className="blue-section-element">
                     <figure>
@@ -42,7 +42,7 @@ const BlueSection = () => {
                     <a href="">DC POWER VISA</a>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

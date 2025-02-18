@@ -12,6 +12,8 @@
 
 :root {
   --color-white: #fff;
+  --color-light-gray: #797979;
+  --color-gray: #303030;
   --color-dark-gray: #1b1b1b;
   --color-blue: #0282f9;
 }
@@ -80,4 +82,69 @@ main {
 
 .blue-section-element a {
   color: var(--color-white);
+}
+
+/* footer */
+.footer1 {
+  background-image: url(./assets/img/footer-bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3 {
+  color: var(--color-white);
+  padding: 1rem 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-links a {
+  color: var(--color-light-gray);
+}
+
+.flex-column-3 {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer1-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer2 {
+  background-color: var(--color-gray);
+}
+
+.footer2-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.btn1 {
+  border: 3px solid var(--color-blue);
+  padding: 1rem;
+  background-color: var(--color-gray);
+  color: var(--color-white);
+  font-size: large;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tx-blue {
+  color: var(--color-blue);
+  font-size: large;
 }
