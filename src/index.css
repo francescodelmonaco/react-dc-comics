@@ -56,22 +56,22 @@ header {
   font-weight: bold;
 }
 
-.blue-bar-flex a {
+.flex-link li a {
   border-bottom: 0.5rem solid transparent;
   line-height: 8rem;
 }
 
-.blue-bar-flex a.active {
+.flex-link li a.active {
   color: var(--color-blue);
   border-bottom: 0.5rem solid var(--color-blue);
 }
 
-.blue-bar-flex a:hover {
+.flex-link li a:hover {
   color: var(--color-blue);
   border-bottom: 0.5rem solid var(--color-blue);
 }
 
-.blue-bar-flex {
+.flex-link li {
   display: flex;
   justify-content: flex-end;
   align-items: center;
