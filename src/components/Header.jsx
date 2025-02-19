@@ -1,71 +1,53 @@
+import Logo from "../assets/img/dc-logo.png";
+
 const Header = () => {
     return (
         <header>
             <div className="flex-header margin-80">
                 <figure>
-                    <img src="/src/assets/img/dc-logo.png" alt="Logo DC Comics" />
+                    <img src={Logo} alt="Logo DC Comics" />
                 </figure>
 
                 <ul className="flex-link">
-                    <div className="blue-bar-flex">
+                    <li className="blue-bar-flex">
                         <a href="">CHARACTERS</a>
+                    </li>
 
-                        <hr />
-                    </div>
+                    <li className="blue-bar-flex">
+                        <a className="active" href="">COMICS</a>
+                    </li>
 
-                    <div className="blue-bar-flex">
-                        <a href="">COMICS</a>
-
-                        <hr />
-                    </div>
-
-                    <div className="blue-bar-flex">
+                    <li className="blue-bar-flex">
                         <a href="">MOVIES</a>
+                    </li>
 
-                        <hr />
-                    </div>
-
-                    <div className="blue-bar-flex">
+                    <li className="blue-bar-flex">
                         <a href="">TV</a>
+                    </li>
 
-                        <hr />
-                    </div>
-
-                    <div className="blue-bar-flex">
+                    <li className="blue-bar-flex">
                         <a href="">GAMES</a>
+                    </li>
 
-                        <hr />
-                    </div>
-
-                    <div className="blue-bar-flex">
+                    <li className="blue-bar-flex">
                         <a href="">COLLECTIBLES</a>
+                    </li>
 
-                        <hr />
-                    </div>
-
-                    <div className="blue-bar-flex">
+                    <li className="blue-bar-flex">
                         <a href="">VIDEOS</a>
+                    </li>
 
-                        <hr />
-                    </div>
-
-                    <div className="blue-bar-flex">
+                    <li className="blue-bar-flex">
                         <a href="">FANS</a>
+                    </li>
 
-                        <hr />
-                    </div>
-
-                    <div className="blue-bar-flex">
+                    <li className="blue-bar-flex">
                         <a href="">NEWS</a>
+                    </li>
 
-                        <hr />
-                    </div>
-
-                    <div className="blue-bar-flex">
+                    <li className="blue-bar-flex">
                         <a href="">SHOP</a>
-
-                        <hr />
-                    </div>
+                    </li>
                 </ul>
             </div>
         </header>
