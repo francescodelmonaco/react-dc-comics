@@ -1,3 +1,10 @@
+import DCBigLogo from "/src/assets/img/dc-logo-bg.png";
+import Facebook from "/src/assets/img/footer-facebook.png";
+import Twitter from "/src/assets/img/footer-twitter.png";
+import YouTube from "/src/assets/img/footer-youtube.png";
+import Pinterest from "/src/assets/img/footer-pinterest.png";
+import Periscope from "/src/assets/img/footer-periscope.png";
+
 const Footer = () => {
     return (
         <footer>
@@ -57,7 +64,7 @@ const Footer = () => {
                     </div>
 
                     <figure>
-                        <img className="logo-dc" src="/src/assets/img/dc-logo-bg.png" alt="DC logo" />
+                        <img className="logo-dc" src={DCBigLogo} alt="DC logo" />
                     </figure>
                 </div>
             </section>
@@ -69,15 +76,15 @@ const Footer = () => {
                     <div className="social">
                         <a className="tx-blue" href=""><strong>FOLLOW US</strong></a>
 
-                        <img src="/src/assets/img/footer-facebook.png" alt="FaceBook logo" />
+                        <img src={Facebook} alt="Facebook logo" />
 
-                        <img src="/src/assets/img/footer-twitter.png" alt="Twitter logo" />
+                        <img src={Twitter} alt="Twitter logo" />
 
-                        <img src="/src/assets/img/footer-youtube.png" alt="YouTube logo" />
+                        <img src={YouTube} alt="YouTube logo" />
 
-                        <img src="/src/assets/img/footer-pinterest.png" alt="Pinterest logo" />
+                        <img src={Pinterest} alt="Pinterest logo" />
 
-                        <img src="/src/assets/img/footer-periscope.png" alt="Periscope logo" />
+                        <img src={Periscope} alt="Periscope logo" />
                     </div>
                 </div>
             </section>
