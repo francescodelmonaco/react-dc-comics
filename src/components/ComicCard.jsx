@@ -1,11 +1,27 @@
-import ComicsArray from "../../data/comics";
+const ComicCard = (props) => {
 
-const ComicCard = () => {
-
-    const array = ComicsArray;
+    const { card } = props;
 
     return (
-        <p>card</p>
+        <div>
+            {
+                card.map((element) => {
+                    const { id, thumb, series } = element;
+
+                    return (
+                        <>
+                            <div>
+                                <figure>
+                                    <img key={id} src={thumb} alt={series} />
+                                </figure>
+
+                                <span>{series}</span>
+                            </div>
+                        </>
+                    );
+                })
+            }
+        </div>
     )
 };
 
