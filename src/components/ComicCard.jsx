@@ -3,14 +3,14 @@ const ComicCard = (props) => {
     const { card } = props;
 
     return (
-        <div>
-            {
-                card.map((element) => {
+        <>
+            <div className="cards-container">
+                {card.map((element) => {
                     const { id, thumb, series } = element;
 
                     return (
                         <>
-                            <div>
+                            <div className="card">
                                 <figure>
                                     <img key={id} src={thumb} alt={series} />
                                 </figure>
@@ -19,9 +19,11 @@ const ComicCard = (props) => {
                             </div>
                         </>
                     );
-                })
-            }
-        </div>
+                })}
+            </div>
+
+            <button>LOAD MORE</button>
+        </>
     )
 };
 

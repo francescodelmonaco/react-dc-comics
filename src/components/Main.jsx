@@ -7,7 +7,7 @@ const Main = () => {
 
     return (
         <main>
-            <div className="card-container margin-80">
+            <div className="cards-section margin-80">
                 <ComicCard card={array} />
             </div>
         </main>
