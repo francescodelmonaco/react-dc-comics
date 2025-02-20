@@ -22,7 +22,7 @@ const ComicCard = (props) => {
                 })}
             </div>
 
-            <button>LOAD MORE</button>
+            <button className="btn-blue">LOAD MORE</button>
         </>
     )
 };

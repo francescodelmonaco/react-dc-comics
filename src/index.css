@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
   font-family: "Open Sans";
 }
@@ -85,7 +85,8 @@ main {
 }
 
 .cards-section {
-  padding: 1.5rem 0;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
 
   display: flex;
   flex-direction: column;
@@ -94,11 +95,35 @@ main {
   gap: 1.5rem;
 }
 
+/* jumbotron */
+.jumbotron {
+  background-image: url(./assets/img/jumbotron.jpg);
+  height: 400px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+.jumbotron div span {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  padding: 1rem;
+  width: 20rem;
+  font-size: x-large;
+  font-weight: 700;
+  text-align: center;
+
+  position: absolute;
+  bottom: -2rem;
+}
+
 /* cards */
 .cards-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -122,6 +147,16 @@ main {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
+}
+
+/* btn */
+.btn-blue {
+  border: none;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  padding: 1rem;
+  width: 10%;
+  font-size: large;
 }
 
 /* blue section */

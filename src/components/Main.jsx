@@ -1,3 +1,4 @@
+import Jumbotron from "./Jumbotron";
 import ComicCard from "./ComicCard";
 import ComicsArray from "../../data/comics";
 
@@ -7,6 +8,8 @@ const Main = () => {
 
     return (
         <main>
+            <Jumbotron />
+
             <div className="cards-section margin-80">
                 <ComicCard card={array} />
             </div>
